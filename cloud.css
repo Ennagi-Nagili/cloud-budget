@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#head {
+    width: 100%;
+    height: 782px;
+    background-image: url("back.png");
+    position: absolute;
+    background-size: cover;
+}
+
+#orange {
+    position: absolute;
+    width: 100%;
+    height: 782px;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.80) 0%, rgba(215, 34, 67, 0.80) 0.01%, rgba(229, 50, 43, 0.80) 21.35%, rgba(236, 59, 30, 0.80) 51.55%, rgba(236, 59, 30, 0.80) 51.56%, rgba(236, 59, 30, 0.80) 53.65%, rgba(236, 58, 31, 0.80) 77.07%, rgba(236, 58, 31, 0.80) 77.08%, rgba(237, 60, 29, 0.80) 97.4%, rgba(237, 60, 29, 0.80) 99.97%, rgba(237, 60, 29, 0.80) 99.98%, rgba(237, 60, 28, 0.80) 99.99%, rgba(238, 61, 27, 0.80) 100%);
+    opacity: 0.9;
+    flex-direction: column;
+}
+
+.head-up {
+    width: 100%;
+    height: 782px;
+    position: relative;
+}
+
+#nav {
+    display: flex;
+    margin-left: 165px;
+    padding-top: 56px;
+    justify-content: space-around;
+}
+
+.nav-text {
+    color: white;
+    font-family: 'Lato';
+    margin-left: 25px;
+}
+
+.links {
+    display: flex;
+}
+
+.head-right {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.america {
+    width: 32px;
+    height: 32px;
+    padding-top: 12px;
+}
+
+.en {
+    background-color: transparent;
+    border: 0;
+    color: white;
+}
+
+.login {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border: white solid 1.5px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato';
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.slc {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.cld {
+    color: white;
+    font-size: 72px;
+    font-family: 'Lato';
+}
+
+.txt {
+    width: 540px;
+    height: 124px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lato';
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+.submit {
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: #ED4C5C;
+    font-size: 14px;
+    font-family: 'Lato';
+    border-radius: 6px;
+    margin-top: 8px;
+    border: none;
+    font-weight: 600;
+}
+
+.second {
+    width: 100%;
+    height: 509px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asd {
+    width: 445px;
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.our {
+    width: 445px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    color: black;
+    text-align: justify;
+}
+
+.learn {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    color: #ED4C5C;
+}
+
+.second-in {
+    display: flex;
+}
+
+.group {
+    margin-left: 92px;
+}
+
+.third {
+    width: 100%;
+    height: 660px;
+    background-color: #FAFAFA;
+    padding-top: 63px;
+}
+
+.fea {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.content {
+    width: 293px;
+    height: 198px;
+    background-color: white;
+    position: relative;
+    border-radius: 8px;
+}
+
+.money {
+    position: absolute;
+}
+
+.sup {
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 32px 32px 0px 32px;
+    margin: 0;
+}
+
+.item {
+    padding-left: 29px;
+    margin-top: 157px;
+}
+
+.mini {
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 20px 32px 0px 32px;
+    color: #101010;
+    line-height: 150%;
+}
+
+.read {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    color: #ED4C5C;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 75px;
+}
+
+.item-in {
+    display: flex;
+}
+
+.fourth {
+    width: 100%;
+    height: 518px;
+    background-color: #ffffff;
+    padding-top: 63px;
+}
+
+.str {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    color: #101010;
+    margin-left: 71px;
+}
+
+.acs {
+    width: 191px;
+    font-family: Lato;
+    font-size: 12px;
+    color: #101010;
+    line-height: 150%;
+    text-align: center;
+    margin-left: 34px;
+}
+
+.items-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 60px;
+}
+
+.item-2 {
+    width: 255px;
+}
+
+.ima {
+    margin-left: 69px;
+}
+
+.fifth {
+    height: 518px;
+    background-color: #ED4C5C;
+    padding-left: 130px;
+    display: flex;
+    padding-top: 104px;
+}
+
+.stay {
+    width: 445px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.imp {
+    width: 445px;
+    color: #FFF;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.slider {
+    width: 533px; 
+    height: 311px;
+    margin-left: 81px;
+}
+
+.sixth {
+    height: 500px;
+    padding-left: 106px;
+    display: flex;
+    padding-top: 104px;
+}
+
+.input1 {
+    width: 193px;
+    height: 9px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    padding: 21px 31px 20px 31px;
+}
+
+.input2 {
+    width: 478px;
+    height: 19px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    padding: 21px 31px 20px 31px;
+    margin-top: 24px;
+}
+
+#slc {
+    width: 540px; 
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    padding: 21px 310px 20px 31px;
+    margin-top: 24px;
+}
+
+.sub {
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+    color: white;
+    font-family: Lato;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 27px;
+}
+
+.foot {
+    height: 350px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 166px;
+    padding-right: 196px;
+    padding-top: 85px;
+}
+
+.foot-con {
+    width: 254px;
+}
+
+.add {
+    color: #101010;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.add-txt {
+    color: #101010;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 33px;
+}
